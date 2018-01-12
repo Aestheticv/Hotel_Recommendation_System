@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Hotel_Recommendation_System</string>
+
+    <string-array name="area_array">
+        <item>請選擇</item>
+        <item>970</item>
+        <item>971</item>
+        <item>972</item>
+        <item>973</item>
+        <item>974</item>
+        <item>975</item>
+        <item>976</item>
+        <item>977</item>
+        <item>978</item>
+        <item>979</item>
+        <item>981</item>
+        <item>982</item>
+        <item>983</item>
+    </string-array>
+</resources>
