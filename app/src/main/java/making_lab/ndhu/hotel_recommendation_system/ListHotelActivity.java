@@ -94,13 +94,13 @@ public class ListHotelActivity extends AppCompatActivity implements AdapterView.
                     case "3":
                         switch (lv){
                             case "1":
-                                sql = "SELECT * FROM hotel WHERE ZIP = '"+area+"' AND Class = '1' ORDER BY Grade";
+                                sql = "SELECT * FROM hotel WHERE ZIP = '"+area+"' AND Class = '1' ORDER BY Grade DESC";
                                 break;
                             case "2":
-                                sql = "SELECT * FROM hotel WHERE ZIP = '"+area+"' AND (Class = '2' OR Class = '3') ORDER BY Grade";
+                                sql = "SELECT * FROM hotel WHERE ZIP = '"+area+"' AND (Class = '2' OR Class = '3') ORDER BY Grade DESC";
                                 break;
                             case "3":
-                                sql = "SELECT * FROM hotel WHERE ZIP = '"+area+"' AND Class = '4'  ORDER BY Grade";
+                                sql = "SELECT * FROM hotel WHERE ZIP = '"+area+"' AND Class = '4'  ORDER BY Grade DESC";
                         }
                         break;
                 }
