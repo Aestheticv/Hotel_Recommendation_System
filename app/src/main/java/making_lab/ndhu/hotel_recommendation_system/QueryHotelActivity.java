@@ -62,7 +62,7 @@ public class QueryHotelActivity extends AppCompatActivity implements View.OnClic
                 }
                 go.setClass(QueryHotelActivity.this,ListHotelActivity.class);
                 if(flag.equals(3)){
-                    bd.putString("flag","31");
+                    bd.putString("flag","3");
                 }
                 else{
 
